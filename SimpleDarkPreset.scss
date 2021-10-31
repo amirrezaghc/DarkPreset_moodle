@@ -1,0 +1,66 @@
+// An example preset file.
+//amirreza ghorbanzadeh
+/*************************** Variables section. *****************************/
+// Create variables to override the default value for variables used in the Moodle and Bootstrap SCSS files.
+
+/*************************** Import section  *****************************/
+@import "fontawesome";
+@import "bootstrap";
+@import "moodle";
+
+/*************************** Rules section ****************************/
+.page-header-headings > h1 {
+    font-weight: bold;
+}
+.mr-auto, .mx-auto {
+    margin-left: 40%!important;
+}
+body {
+    background-color: #F8F9FA;
+}
+.bg-white {
+    background-color: #212529	!important;
+}
+.dropdown-toggle {
+    color: white;
+}
+.fa-comment:before {
+    color: #0092C1;
+}
+.fa-bell:before {
+    color: #0092C1;
+}
+fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    color: white;
+}
+.bg-gray {
+    background-color:#212529!important;
+}
+.btn-light {
+    color: #212529;
+    background-color: #212529;
+    border-color: #212529;
+}
+a.bg-gray:hover, button.bg-gray:hover, a.bg-gray:focus, button.bg-gray:focus {
+    background-color: #212529!important;
+}
+[data-region="drawer"] {
+    background-color: #212529;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.list-group-item {
+    background-color: #212529;
+}
+.list-group-item-action {
+    color: white;
+}
+.list-group-item.active {
+    color: #fff;
+    background-color: #44449B;
+}
+.list-group-item-action:hover, .list-group-item-action:focus {
+    color: white;
+    background-color: #44449B;
+}
